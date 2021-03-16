@@ -112,6 +112,5 @@ public class PatrolMovement : MonoBehaviour
 			prevWaypoint = waypoint;
 		}
 		Gizmos.DrawLine(waypoints[0].transform.position, waypoints[lastWayPoint].transform.position);
-
 	}
 }
