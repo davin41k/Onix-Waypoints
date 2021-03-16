@@ -13,7 +13,6 @@ public class PatrolMovement : MonoBehaviour
 	int lastWayPoint;
 	Color newColor;
 
-
 	void Start()
 	{
 		waypoints = GetWaypoints();
