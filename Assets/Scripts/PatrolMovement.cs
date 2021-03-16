@@ -93,7 +93,6 @@ public class PatrolMovement : MonoBehaviour
 	
 	private void OnDrawGizmos()
 	{
-		//GameObject prevWaypoint = null;
 		Gizmos.color = Color.red;
 
 		DrawGizmosAreaAndLines();
